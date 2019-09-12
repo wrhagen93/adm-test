@@ -1,0 +1,193 @@
+2019-06-19 16:10:09,388 [main] INFO  com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - VersionManagerProperties:
+[vcUsername:e187e],
+[vcPassword:***],
+[commitMessage:BPM-1398 Initial import attempt with Flyway],
+[action:addContents],
+[applicationPath:/Users/dmish/Downloads/Temp/Appian/Flyway.zip],
+[adminConsolePath:value not provided],
+[ddlPath:value not provided],
+[flywayPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/db/],
+[ddlDs:jdbc/cha01Fly],
+[uuid:value not provided],
+[applicationName:value not provided],
+[startHash:value not provided],
+[endHash:value not provided],
+[packagePath:value not provided],
+[versionControlType:GIT],
+[repoUrl:https://bitbucket.gfs.com/scm/appn/citesting.git],
+[localRepoPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting],
+[branchName:BranchBPM-1398-create-app-version-with-flyway],
+[appianObjectsRepoPath:value not provided],
+[noUpdate:value not provided],
+
+2019-06-19 16:10:10,443 [main] INFO  com.appiancorp.ps.automatedversioning.GitObject - Local repo updated successfully
+2019-06-19 16:10:10,556 [main] INFO  com.appiancorp.ps.automatedversioning.VCSAndBuildController - Unzipping application to repository
+2019-06-19 16:10:10,590 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/application_files/content/_a-0000e1cd-0aee-8000-9ba2-011c48011c48_561865.xml
+2019-06-19 16:10:10,590 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/application_files/content/_a-0000e1cd-0aee-8000-9ba2-011c48011c48_561829.xml
+2019-06-19 16:10:10,591 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/application_files/content/_a-0000e1cd-0aee-8000-9ba2-011c48011c48_560951.xml
+2019-06-19 16:10:10,591 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/application_files/content/_a-0000e1cd-0aee-8000-9ba2-011c48011c48_563667.xml
+2019-06-19 16:10:10,591 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/application_files/content/_a-0000e1cd-0aee-8000-9ba2-011c48011c48_560963.xml
+2019-06-19 16:10:10,592 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/application_files/content/_a-0000e1cd-0aee-8000-9ba2-011c48011c48_562166.xml
+2019-06-19 16:10:10,592 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/application_files/content/_a-0000e2a8-3e6a-8000-9ba2-011c48011c48_837161.xml
+2019-06-19 16:10:10,593 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/application_files/application/_a-0000e2a8-3e6a-8000-9ba2-011c48011c48_837148.xml
+2019-06-19 16:10:10,602 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/application_files/META-INF/_a-0000e2a8-3e6a-8000-9ba2-011c48011c48_837148/MANIFEST.MF
+2019-06-19 16:10:10,607 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/application_files/META-INF/_a-0000e2a8-3e6a-8000-9ba2-011c48011c48_837148/export.log
+2019-06-19 16:10:10,644 [main] INFO  com.appiancorp.ps.automatedversioning.VCSAndBuildController - Checking for DDLs
+2019-06-19 16:10:10,648 [main] INFO  com.appiancorp.ps.automatedversioning.VCSAndBuildController - Checking for Flyway directories
+2019-06-19 16:10:10,648 [main] INFO  com.appiancorp.ps.automatedversioning.helper.RepoHelper - Copying source directory at /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/db to /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/flyway_files/db
+2019-06-19 16:10:10,663 [main] INFO  com.appiancorp.ps.automatedversioning.VCSAndBuildController - /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/db/ added successfully
+2019-06-19 16:10:10,663 [main] INFO  com.appiancorp.ps.automatedversioning.VCSAndBuildController - Generating metadata
+2019-06-19 16:10:10,742 [main] INFO  com.appiancorp.ps.automatedversioning.GitObject - Committed all changes to repository at /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/.git. Commit hash: b67bdf90b8ae28a793cc86cdd1e7ffe82bc71d1c
+2019-06-19 16:10:11,737 [main] INFO  com.appiancorp.ps.automatedversioning.GitObject - Changes pushed successfully.
+2019-06-19 16:10:11,741 [main] ERROR com.appiancorp.ps.automatedversioning.properties.MetricsProperties - Error: metrics.properties (No such file or directory)
+2019-06-19 16:13:46,274 [main] INFO  com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - VersionManagerProperties:
+[vcUsername:e187e],
+[vcPassword:***],
+[commitMessage:value not provided],
+[action:buildSingleApp],
+[applicationPath:value not provided],
+[adminConsolePath:value not provided],
+[ddlPath:value not provided],
+[flywayPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/db/],
+[ddlDs:jdbc/cha01Fly],
+[uuid:value not provided],
+[applicationName:Flyway],
+[startHash:value not provided],
+[endHash:value not provided],
+[packagePath:value not provided],
+[versionControlType:GIT],
+[repoUrl:https://bitbucket.gfs.com/scm/appn/citesting.git],
+[localRepoPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting],
+[branchName:BranchBPM-1398-create-app-version-with-flyway],
+[appianObjectsRepoPath:value not provided],
+[noUpdate:value not provided],
+
+2019-06-19 16:13:46,283 [main] ERROR com.appiancorp.ps.automatedversioning.ValidateParameters - The "package_path" option must be provided when using the "buildAllApps" or "buildSingleApp" or "buildMultipleApps" actions.
+2019-06-19 16:15:02,987 [main] ERROR com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - Failed to process command line parameters. See log for more details. 
+org.apache.commons.cli.UnrecognizedOptionException: Unrecognized option: -packagePath
+	at org.apache.commons.cli.DefaultParser.handleUnknownToken(DefaultParser.java:347)
+	at org.apache.commons.cli.DefaultParser.handleConcatenatedOptions(DefaultParser.java:689)
+	at org.apache.commons.cli.DefaultParser.handleShortAndLongOption(DefaultParser.java:520)
+	at org.apache.commons.cli.DefaultParser.handleToken(DefaultParser.java:243)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:120)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:76)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:60)
+	at com.appiancorp.ps.automatedversioning.AutomatedVersioningManager.main(AutomatedVersioningManager.java:45)
+2019-06-19 16:16:11,705 [main] INFO  com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - VersionManagerProperties:
+[vcUsername:e187e],
+[vcPassword:***],
+[commitMessage:value not provided],
+[action:buildSingleApp],
+[applicationPath:value not provided],
+[adminConsolePath:value not provided],
+[ddlPath:value not provided],
+[flywayPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/db/],
+[ddlDs:jdbc/cha01Fly],
+[uuid:value not provided],
+[applicationName:Flyway],
+[startHash:value not provided],
+[endHash:value not provided],
+[packagePath:~/Downloads/Temp/Appian/Flyway-20190619.zip],
+[versionControlType:GIT],
+[repoUrl:https://bitbucket.gfs.com/scm/appn/citesting.git],
+[localRepoPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting],
+[branchName:BranchBPM-1398-create-app-version-with-flyway],
+[appianObjectsRepoPath:value not provided],
+[noUpdate:value not provided],
+
+2019-06-19 16:16:12,739 [main] INFO  com.appiancorp.ps.automatedversioning.GitObject - Local repo updated successfully
+2019-06-19 16:16:13,030 [main] INFO  com.appiancorp.ps.automatedversioning.helper.PackageGenerationHelper - Finished creating package: /Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/~/Downloads/Temp/Appian/Flyway-20190619.zip
+2019-06-19 16:16:13,033 [main] INFO  com.appiancorp.ps.automatedversioning.VCSAndBuildController - Package built. Saved at: ~/Downloads/Temp/Appian/Flyway-20190619.zip
+2019-06-19 16:16:13,034 [main] ERROR com.appiancorp.ps.automatedversioning.properties.MetricsProperties - Error: metrics.properties (No such file or directory)
+2019-06-21 13:50:37,731 [main] INFO  com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - VersionManagerProperties:
+[vcUsername:e187e],
+[vcPassword:***],
+[commitMessage:value not provided],
+[action:buildSingleApp],
+[applicationPath:value not provided],
+[adminConsolePath:value not provided],
+[ddlPath:value not provided],
+[flywayPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/db/],
+[ddlDs:jdbc/cha01Fly],
+[uuid:value not provided],
+[applicationName:Flyway],
+[startHash:value not provided],
+[endHash:value not provided],
+[packagePath:/Users/dmish/Downloads/Temp/Appian/Flyway-20190619.zip],
+[versionControlType:GIT],
+[repoUrl:https://bitbucket.gfs.com/scm/appn/citesting.git],
+[localRepoPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting],
+[branchName:BranchBPM-1398-create-app-version-with-flyway],
+[appianObjectsRepoPath:value not provided],
+[noUpdate:value not provided],
+
+2019-06-21 13:50:38,559 [main] INFO  com.appiancorp.ps.automatedversioning.GitObject - Local repo updated successfully
+2019-06-21 13:50:38,818 [main] ERROR com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - There was an error completing the selected operation. Additional details will be logged.
+2019-06-21 13:50:38,819 [main] ERROR com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - Details of error: 
+java.nio.file.FileAlreadyExistsException: /Users/dmish/Downloads/Temp/Appian/Flyway-20190619.zip
+	at com.appiancorp.ps.automatedversioning.helper.PackageGenerationHelper.getPackageFile(PackageGenerationHelper.java:252)
+	at com.appiancorp.ps.automatedversioning.helper.PackageGenerationHelper.createZipFileFromChangedFiles(PackageGenerationHelper.java:155)
+	at com.appiancorp.ps.automatedversioning.helper.PackageGenerationHelper.generatePackage(PackageGenerationHelper.java:82)
+	at com.appiancorp.ps.automatedversioning.VCSAndBuildController.generateChangedFileList(VCSAndBuildController.java:270)
+	at com.appiancorp.ps.automatedversioning.VCSAndBuildController.buildPackage(VCSAndBuildController.java:221)
+	at com.appiancorp.ps.automatedversioning.VCSAndBuildController.buildSingleApp(VCSAndBuildController.java:340)
+	at com.appiancorp.ps.automatedversioning.AutomatedVersioningManager.main(AutomatedVersioningManager.java:141)
+2019-06-21 13:52:31,895 [main] INFO  com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - VersionManagerProperties:
+[vcUsername:e187e],
+[vcPassword:***],
+[commitMessage:value not provided],
+[action:buildSingleApp],
+[applicationPath:value not provided],
+[adminConsolePath:value not provided],
+[ddlPath:value not provided],
+[flywayPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/db/],
+[ddlDs:jdbc/cha01Fly],
+[uuid:value not provided],
+[applicationName:Flyway],
+[startHash:value not provided],
+[endHash:value not provided],
+[packagePath:/Users/dmish/Downloads/Temp/Appian/Flyway-20190621.zip],
+[versionControlType:GIT],
+[repoUrl:https://bitbucket.gfs.com/scm/appn/citesting.git],
+[localRepoPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting],
+[branchName:BranchBPM-1398-create-app-version-with-flyway],
+[appianObjectsRepoPath:value not provided],
+[noUpdate:value not provided],
+
+2019-06-21 13:52:32,581 [main] INFO  com.appiancorp.ps.automatedversioning.GitObject - Local repo updated successfully
+2019-06-21 13:52:32,812 [main] INFO  com.appiancorp.ps.automatedversioning.helper.PackageGenerationHelper - Finished creating package: /Users/dmish/Downloads/Temp/Appian/Flyway-20190621.zip
+2019-06-21 13:52:32,815 [main] INFO  com.appiancorp.ps.automatedversioning.VCSAndBuildController - Package built. Saved at: /Users/dmish/Downloads/Temp/Appian/Flyway-20190621.zip
+2019-06-21 13:52:32,816 [main] ERROR com.appiancorp.ps.automatedversioning.properties.MetricsProperties - Error: metrics.properties (No such file or directory)
+2019-06-21 13:53:10,049 [main] INFO  com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - VersionManagerProperties:
+[vcUsername:e187e],
+[vcPassword:***],
+[commitMessage:value not provided],
+[action:buildSingleApp],
+[applicationPath:value not provided],
+[adminConsolePath:value not provided],
+[ddlPath:value not provided],
+[flywayPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting/db/],
+[ddlDs:jdbc/cha01Fly],
+[uuid:value not provided],
+[applicationName:Flyway],
+[startHash:value not provided],
+[endHash:value not provided],
+[packagePath:/Users/dmish/Downloads/Temp/Appian/Flyway-20190621.zip],
+[versionControlType:GIT],
+[repoUrl:https://bitbucket.gfs.com/scm/appn/citesting.git],
+[localRepoPath:/Users/dmish/Documents/Sandbox/versioned/branch/appian-flyway/citesting],
+[branchName:BranchBPM-1398-create-app-version-with-flyway],
+[appianObjectsRepoPath:value not provided],
+[noUpdate:value not provided],
+
+2019-06-21 13:53:10,655 [main] INFO  com.appiancorp.ps.automatedversioning.GitObject - Local repo updated successfully
+2019-06-21 13:53:10,827 [main] ERROR com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - There was an error completing the selected operation. Additional details will be logged.
+2019-06-21 13:53:10,827 [main] ERROR com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - Details of error: 
+java.nio.file.FileAlreadyExistsException: /Users/dmish/Downloads/Temp/Appian/Flyway-20190621.zip
+	at com.appiancorp.ps.automatedversioning.helper.PackageGenerationHelper.getPackageFile(PackageGenerationHelper.java:252)
+	at com.appiancorp.ps.automatedversioning.helper.PackageGenerationHelper.createZipFileFromChangedFiles(PackageGenerationHelper.java:155)
+	at com.appiancorp.ps.automatedversioning.helper.PackageGenerationHelper.generatePackage(PackageGenerationHelper.java:82)
+	at com.appiancorp.ps.automatedversioning.VCSAndBuildController.generateChangedFileList(VCSAndBuildController.java:270)
+	at com.appiancorp.ps.automatedversioning.VCSAndBuildController.buildPackage(VCSAndBuildController.java:221)
+	at com.appiancorp.ps.automatedversioning.VCSAndBuildController.buildSingleApp(VCSAndBuildController.java:340)
+	at com.appiancorp.ps.automatedversioning.AutomatedVersioningManager.main(AutomatedVersioningManager.java:141)
