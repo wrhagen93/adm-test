@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000e325-2aec-8000-9ba2-011c48011c48_55341</versionUuid>
+    <rule>
+        <name>JB_FitNesseReport</name>
+        <uuid>_a-0000e325-2aec-8000-9ba2-011c48011c48_55271</uuid>
+        <description>Various test artifacts for fitnesse</description>
+        <parentUuid>_a-0000e320-df0d-8000-9ba2-011c48011c48_53393</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+        <definition>a!localVariables(
+  local!selectedCustomValue,
+  local!justSelectedCustomValue,
+  local!userInPicker,
+  local!justSelectedUser,
+  {
+    #"SYSTEM_SYSRULES_pickerFieldCustom"(
+      label: "Select a Value",
+      suggestFunction: #"_a-0000e325-2aec-8000-9ba2-011c48011c48_55313"(
+        _
+      ),
+      value: local!selectedCustomValue,
+      saveInto: {
+        local!selectedCustomValue,
+        local!justSelectedCustomValue,
+        a!save(
+          local!selectedCustomValue,
+          null
+        )
+      }
+    ),
+    #"SYSTEM_SYSRULES_textField"(
+      label: "Last Selected ID",
+      readOnly: true,
+      value: "ID of last selected value was " &amp; local!justSelectedCustomValue
+    ),
+    #"SYSTEM_SYSRULES_pickerFieldUsers"(
+      label: "Choose a User",
+      value: local!userInPicker,
+      saveInto: {
+        local!userInPicker,
+        local!justSelectedUser,
+        a!save(
+          local!userInPicker,
+          null
+        )
+      },
+      maxSelections: 1
+    ),
+    #"SYSTEM_SYSRULES_textField"(
+      label: "Last Selected User",
+      readOnly: true,
+      value: if(
+        not(isnull(local!justSelectedUser)),
+        user(
+          loggedInUser(),
+          "firstName"
+        ) &amp; "'s choice was " &amp; user(
+          index(local!justSelectedUser,1),
+          "firstName"
+        ),
+        user(
+          loggedInUser(),
+          "firstName"
+        ) &amp; "$ choice is awaited"
+      )
+    )
+  }
+)</definition>
+        <preferredEditor>interface</preferredEditor>
+        <offlineEnabled>false</offlineEnabled>
+    </rule>
+    <roleMap public="true">
+        <role inherit="true" allowForAll="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000e325-2aec-8000-9ba2-011c48011c48_55341"/>
+    </history>
+</contentHaul>
