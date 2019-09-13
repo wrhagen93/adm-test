@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<groupHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <group>
+        <name>Everyone</name>
+        <securityMap>SECURITYMAP_PUBLIC</securityMap>
+        <uuid>0001d0b7-c973-8000-c973-4e2a554e2a55</uuid>
+        <groupTypeUuid>SYSTEM_GROUP_TYPE_CUSTOM</groupTypeUuid>
+        <description>Custom group defined using rule that includes all users.</description>
+        <delegatedCreation>false</delegatedCreation>
+        <memberPolicy>MEMBERPOLICY_AUTOMATIC</memberPolicy>
+        <viewingPolicy>VIEWINGPOLICY_LOW</viewingPolicy>
+        <attributes/>
+    </group>
+    <members>
+        <users/>
+        <groups/>
+    </members>
+    <admins>
+        <users>
+            <userUuid>Administrator</userUuid>
+        </users>
+        <groups>
+            <groupUuid>SYSTEM_GROUP_PROCESS_MODEL_CREATORS</groupUuid>
+            <groupUuid>SYSTEM_GROUP_TEMPO_GLOBAL_MESSAGE_AUTHORS</groupUuid>
+            <groupUuid>SYSTEM_GROUP_PORTAL_ADMINISTRATORS</groupUuid>
+        </groups>
+    </admins>
+    <ruleSet>
+        <expressions>
+            <entityTypeName>u</entityTypeName>
+            <conditions>
+                <attributeName>username</attributeName>
+                <operatorId>6</operatorId>
+                <value>blah</value>
+            </conditions>
+        </expressions>
+    </ruleSet>
+</groupHaul>

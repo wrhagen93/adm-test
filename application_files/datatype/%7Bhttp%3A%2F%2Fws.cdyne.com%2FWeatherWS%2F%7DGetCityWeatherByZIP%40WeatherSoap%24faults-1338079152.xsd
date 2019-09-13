@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://ws.cdyne.com/WeatherWS/"
+  xmlns:tns="http://ws.cdyne.com/WeatherWS/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:simpleType name="GetCityWeatherByZIP@WeatherSoap$faults-1338079152">
+    <xsd:annotation>
+      <xsd:documentation>Origin: http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL</xsd:documentation>
+      <xsd:appinfo source="http://www.appian.com/ae/types/2009">
+        <ns2:Metadata xmlns:ns2="http://www.appian.com/ae/types/2009">
+          <ns2:Flags>HIDDEN UNION</ns2:Flags>
+        </ns2:Metadata>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:union memberTypes="xsd:string"/>
+  </xsd:simpleType>
+</xsd:schema>
