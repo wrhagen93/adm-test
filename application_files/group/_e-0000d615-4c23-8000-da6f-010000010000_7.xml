@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<groupHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <group>
+        <name>All Users</name>
+        <securityMap>SECURITYMAP_PUBLIC</securityMap>
+        <uuid>_e-0000d615-4c23-8000-da6f-010000010000_7</uuid>
+        <groupTypeUuid>SYSTEM_GROUP_TYPE_CUSTOM</groupTypeUuid>
+        <description>Group containing all users for application</description>
+        <delegatedCreation>false</delegatedCreation>
+        <memberPolicy>MEMBERPOLICY_CLOSED</memberPolicy>
+        <viewingPolicy>VIEWINGPOLICY_LOW</viewingPolicy>
+        <attributes/>
+    </group>
+    <members>
+        <users/>
+        <groups/>
+    </members>
+    <admins>
+        <users>
+            <userUuid>Administrator</userUuid>
+        </users>
+        <groups/>
+    </admins>
+    <ruleSet>
+        <expressions>
+            <entityTypeName>u</entityTypeName>
+            <conditions>
+                <attributeName>username</attributeName>
+                <operatorId>6</operatorId>
+                <value>&amp;%$</value>
+            </conditions>
+        </expressions>
+    </ruleSet>
+</groupHaul>

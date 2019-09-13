@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.webserviceX.NET/"
+  xmlns:tns="http://www.webserviceX.NET/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:include schemaLocation="%7Bhttp%3A%2F%2Fwww.webserviceX.NET%2F%7DCurrency.xsd"/>
+  <xsd:element name="ConversionRate">
+    <xsd:complexType>
+      <xsd:annotation>
+        <xsd:appinfo source="http://www.appian.com/ae/types/2009">
+          <ns2:Metadata xmlns:ns2="http://www.appian.com/ae/types/2009">
+            <ns2:Flags>HIDDEN</ns2:Flags>
+          </ns2:Metadata>
+        </xsd:appinfo>
+      </xsd:annotation>
+      <xsd:sequence>
+        <xsd:element form="qualified" name="FromCurrency" type="tns:Currency"/>
+        <xsd:element form="qualified" name="ToCurrency" type="tns:Currency"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

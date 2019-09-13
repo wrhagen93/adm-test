@@ -1,0 +1,4 @@
+###city###
+###state###
+###wind###
+###temp### degrees

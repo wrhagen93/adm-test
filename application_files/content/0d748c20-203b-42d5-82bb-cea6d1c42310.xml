@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <rule>
+        <name>courseRecordFacets</name>
+        <uuid>0d748c20-203b-42d5-82bb-cea6d1c42310</uuid>
+        <description></description>
+        <parentUuid>_a-0000d911-ea20-8000-e65e-010000010000_2731</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+        <definition>{
+  #&quot;SYSTEM_SYSRULES_facet&quot;(
+    name: &quot;Departments&quot;,
+    options: {
+      #&quot;SYSTEM_SYSRULES_facetOption&quot;(
+        id: 1,
+        name: &quot;Chemistry&quot;,
+        filter: #&quot;SYSTEM_SYSRULES_queryFilter&quot;(
+          field: &quot;department&quot;,
+          operator: &quot;=&quot;,
+          value: &quot;CHEM&quot;
+        )
+      ),
+      #&quot;SYSTEM_SYSRULES_facetOption&quot;(
+        id: 2,
+        name: &quot;Classics&quot;,
+        filter: #&quot;SYSTEM_SYSRULES_queryFilter&quot;(
+          field: &quot;department&quot;,
+          operator: &quot;=&quot;,
+          value: &quot;CLAS&quot;
+        )
+      ),
+      #&quot;SYSTEM_SYSRULES_facetOption&quot;(
+        id: 3,
+        name: &quot;Computer Science&quot;,
+        filter: #&quot;SYSTEM_SYSRULES_queryFilter&quot;(
+          field: &quot;department&quot;,
+          operator: &quot;=&quot;,
+          value: &quot;CMSC&quot;
+        )
+      ),
+      #&quot;SYSTEM_SYSRULES_facetOption&quot;(
+        id: 4,
+        name: &quot;Engineering&quot;,
+        filter: #&quot;SYSTEM_SYSRULES_queryFilter&quot;(
+          field: &quot;department&quot;,
+          operator: &quot;=&quot;,
+          value: &quot;ENGR&quot;
+        )
+      ),
+      #&quot;SYSTEM_SYSRULES_facetOption&quot;(
+        id: 5,
+        name: &quot;History&quot;,
+        filter: #&quot;SYSTEM_SYSRULES_queryFilter&quot;(
+          field: &quot;department&quot;,
+          operator: &quot;=&quot;,
+          value: &quot;HIST&quot;
+        )
+      ),
+      #&quot;SYSTEM_SYSRULES_facetOption&quot;(
+        id: 6,
+        name: &quot;Mathematics&quot;,
+        filter: #&quot;SYSTEM_SYSRULES_queryFilter&quot;(
+          field: &quot;department&quot;,
+          operator: &quot;=&quot;,
+          value: &quot;MATH&quot;
+        )
+      ),
+      #&quot;SYSTEM_SYSRULES_facetOption&quot;(
+        id: 7,
+        name: &quot;Physics&quot;,
+        filter: #&quot;SYSTEM_SYSRULES_queryFilter&quot;(
+          field: &quot;department&quot;,
+          operator: &quot;=&quot;,
+          value: &quot;PHYS&quot;
+        )
+      ),
+      #&quot;SYSTEM_SYSRULES_facetOption&quot;(
+        id: 8,
+        name: &quot;Statistics&quot;,
+        filter: #&quot;SYSTEM_SYSRULES_queryFilter&quot;(
+          field: &quot;department&quot;,
+          operator: &quot;=&quot;,
+          value: &quot;STAT&quot;
+        )
+      )
+    }
+  ),
+  #&quot;SYSTEM_SYSRULES_facet&quot;(
+    name: &quot;Professors&quot;,
+    options: {
+      #&quot;SYSTEM_SYSRULES_facetOption&quot;(
+        id: 9,
+        name: &quot;Knuth&quot;,
+        filter: #&quot;SYSTEM_SYSRULES_queryFilter&quot;(
+          field: &quot;professor&quot;,
+          operator: &quot;=&quot;,
+          value: &quot;Knuth&quot;
+        )
+      ),
+      #&quot;SYSTEM_SYSRULES_facetOption&quot;(
+        id: 10,
+        name: &quot;Newton&quot;,
+        filter: #&quot;SYSTEM_SYSRULES_queryFilter&quot;(
+          field: &quot;professor&quot;,
+          operator: &quot;=&quot;,
+          value: &quot;Newton&quot;
+        )
+      ),
+      #&quot;SYSTEM_SYSRULES_facetOption&quot;(
+        id: 8,
+        name: &quot;Schrödinger&quot;,
+        filter: #&quot;SYSTEM_SYSRULES_queryFilter&quot;(
+          field: &quot;professor&quot;,
+          operator: &quot;=&quot;,
+          value: &quot;Schrödinger&quot;
+        )
+      ),
+    }
+  )
+}</definition>
+        <preferredEditor>interface</preferredEditor>
+        <offlineEnabled>false</offlineEnabled>
+    </rule>
+    <roleMap public="true">
+        <role allowForAll="false" inherit="true" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="true" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="true" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <typedValue>
+        <type>
+            <name>RuleTestConfig?list</name>
+            <namespace>http://www.appian.com/ae/types/2009</namespace>
+        </type>
+        <value>
+            <el>
+                <a:name/>
+                <a:assertions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </el>
+        </value>
+    </typedValue>
+</contentHaul>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://ws.cdyne.com/WeatherWS/"
+  xmlns:tns="http://ws.cdyne.com/WeatherWS/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="GetCityWeatherByZIP">
+    <xsd:complexType>
+      <xsd:annotation>
+        <xsd:appinfo source="http://www.appian.com/ae/types/2009">
+          <ns2:Metadata xmlns:ns2="http://www.appian.com/ae/types/2009">
+            <ns2:Flags>HIDDEN</ns2:Flags>
+          </ns2:Metadata>
+        </xsd:appinfo>
+      </xsd:annotation>
+      <xsd:sequence>
+        <xsd:element form="qualified" minOccurs="0" name="ZIP" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
