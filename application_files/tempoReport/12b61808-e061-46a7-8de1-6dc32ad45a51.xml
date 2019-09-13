@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tempoReportHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>bb99ed87-6fea-4a71-bbe4-3cea557a6d36</versionUuid>
+    <tempoReport a:uuid="12b61808-e061-46a7-8de1-6dc32ad45a51" name="JuiceBox FitNesse report">
+        <a:description>Test report for FitNesse</a:description>
+        <a:uiExpr>=#"_a-0000e325-2aec-8000-9ba2-011c48011c48_55271"()</a:uiExpr>
+        <a:urlStub>PmpG0Q</a:urlStub>
+    </tempoReport>
+    <roleMap/>
+    <history>
+        <historyInfo versionUuid="bb99ed87-6fea-4a71-bbe4-3cea557a6d36"/>
+    </history>
+</tempoReportHaul>
