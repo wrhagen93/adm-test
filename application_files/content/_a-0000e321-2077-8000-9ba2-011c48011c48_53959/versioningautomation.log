@@ -1,0 +1,25 @@
+2019-09-13 14:58:14,845 [main] ERROR com.appiancorp.ps.automatedversioning.properties.VersionManagerProperties - java.io.FileNotFoundException: version-manager.properties (The system cannot find the file specified)
+2019-09-13 14:58:14,845 [main] INFO  com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - VersionManagerProperties:
+[vcUsername:value not provided],
+[vcPassword:value not provided],
+[commitMessage:value not provided],
+[action:value not provided],
+[applicationPath:value not provided],
+[adminConsolePath:value not provided],
+[ddlPath:value not provided],
+[flywayPath:value not provided],
+[ddlDs:value not provided],
+[uuid:value not provided],
+[applicationName:value not provided],
+[startHash:value not provided],
+[endHash:value not provided],
+[packagePath:value not provided],
+[versionControlType:value not provided],
+[repoUrl:value not provided],
+[localRepoPath:value not provided],
+[branchName:value not provided],
+[appianObjectsRepoPath:value not provided],
+[noUpdate:value not provided],
+[enableFolderListenerCommitMessage:value not provided],
+
+2019-09-13 14:58:14,846 [main] ERROR com.appiancorp.ps.automatedversioning.ValidateParameters - The -action option must be used. Please use -h or -help for more information.
