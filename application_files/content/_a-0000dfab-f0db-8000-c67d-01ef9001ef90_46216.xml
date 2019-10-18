@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000dfab-f0db-8000-c67d-01ef9001ef90_46220</versionUuid>
+    <queryRule>
+        <name>QueryRule02</name>
+        <uuid>_a-0000dfab-f0db-8000-c67d-01ef9001ef90_46216</uuid>
+        <description></description>
+        <folderUuid>_a-0000dfab-f0db-8000-c67d-01ef9001ef90_46109</folderUuid>
+        <dataStoreEntityCompositeUuid></dataStoreEntityCompositeUuid>
+        <params/>
+        <filters/>
+        <orderings/>
+    </queryRule>
+    <roleMap public="false">
+        <role inherit="true" allowForAll="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000dfab-f0db-8000-c67d-01ef9001ef90_46220"/>
+    </history>
+</contentHaul>
