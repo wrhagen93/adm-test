@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<tempoReportHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <tempoReport a:uuid="a5861d43-5aee-431a-b88e-2e5baec720a2" name="Report02">
-        <a:description></a:description>
-        <a:uiExpr></a:uiExpr>
-        <a:urlStub>cxZm0g</a:urlStub>
-    </tempoReport>
-    <roleMap/>
-</tempoReportHaul>
