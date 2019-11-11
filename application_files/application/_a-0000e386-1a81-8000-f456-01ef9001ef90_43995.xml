@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e386-1a81-8000-f456-01ef9001ef90_44000</versionUuid>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>8da8fc2f-34be-46cf-8f2c-7ae149cad751</versionUuid>
     <application>
         <name>bTest</name>
         <uuid>_a-0000e386-1a81-8000-f456-01ef9001ef90_43995</uuid>
@@ -244,5 +245,6 @@
     </roleMap>
     <history>
         <historyInfo versionUuid="_a-0000e386-1a81-8000-f456-01ef9001ef90_44000"/>
+        <historyInfo versionUuid="8da8fc2f-34be-46cf-8f2c-7ae149cad751"/>
     </history>
-</applicationHaul>
+</applicationHaul><!--updated on 2019-11-11T16:18:13.054-->
