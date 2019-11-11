@@ -1,11 +1,39 @@
-Success (1):
+Success (2):
 datatype 2685 {urn:com:appian:types}sdg "{urn:com:appian:types}sdg"
+application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 "bTest"
 
 Trace:
-2019-11-11 14:38:17.036 DEBUG datatype 2685 {urn:com:appian:types}sdg Begin transport.
-2019-11-11 14:38:17.036 DEBUG datatype 2685 {urn:com:appian:types}sdg Retrieving object data.
-2019-11-11 14:38:17.081 DEBUG datatype 2685 {urn:com:appian:types}sdg Setting uuids of object references.
-2019-11-11 14:38:17.083 DEBUG datatype 2685 {urn:com:appian:types}sdg Completing produce.
-2019-11-11 14:38:17.083 DEBUG datatype 2685 {urn:com:appian:types}sdg Exporting binary resources.
-2019-11-11 14:38:17.083 DEBUG datatype 2685 {urn:com:appian:types}sdg Serializing object to XML.
-2019-11-11 14:38:17.093 DEBUG datatype 2685 {urn:com:appian:types}sdg Object transported.
+2019-11-11 14:43:53.994 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Begin transport.
+2019-11-11 14:43:53.994 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Retrieving object data.
+2019-11-11 14:43:54.343 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 App associated objects: [datatype=[{urn:com:appian:types}sdg]]
+2019-11-11 14:43:54.344 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Invalid associated objects: []
+2019-11-11 14:43:54.55 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Adding valid associated objects to be exported: GlobalBindingMap[datatype={{urn:com:appian:types}sdg=2685}]
+2019-11-11 14:43:54.55 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Setting uuids of object references.
+2019-11-11 14:43:54.552 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Processing reference: Application.forum
+2019-11-11 14:43:54.553 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Processing reference: Application.parent
+2019-11-11 14:43:54.559 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@69f51391[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=1:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2019-11-11 14:43:54.559 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2019-11-11 14:43:54.559 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2019-11-11 14:43:54.559 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2019-11-11 14:43:54.559 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2019-11-11 14:43:54.559 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2019-11-11 14:43:54.559 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2019-11-11 14:43:54.559 DEBUG datatype 2685 {urn:com:appian:types}sdg Begin transport.
+2019-11-11 14:43:54.559 DEBUG datatype 2685 {urn:com:appian:types}sdg Retrieving object data.
+2019-11-11 14:43:54.594 DEBUG datatype 2685 {urn:com:appian:types}sdg Setting uuids of object references.
+2019-11-11 14:43:54.595 DEBUG datatype 2685 {urn:com:appian:types}sdg Completing produce.
+2019-11-11 14:43:54.595 DEBUG datatype 2685 {urn:com:appian:types}sdg Exporting binary resources.
+2019-11-11 14:43:54.595 DEBUG datatype 2685 {urn:com:appian:types}sdg Serializing object to XML.
+2019-11-11 14:43:54.603 DEBUG datatype 2685 {urn:com:appian:types}sdg Object transported.
+2019-11-11 14:43:54.603 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Completing produce.
+2019-11-11 14:43:54.603 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Exporting binary resources.
+2019-11-11 14:43:54.603 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Serializing object to XML.
+2019-11-11 14:43:54.618 DEBUG application 7721 _a-0000e386-1a81-8000-f456-01ef9001ef90_43995 Object transported.
