@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applicationPatches>
+    <applicationPatch>
+        <applicationUuid>_a-0000e386-1a81-8000-f456-01ef9001ef90_43995</applicationUuid>
+        <patchContents>
+            <item>
+                <type>datatype</type>
+                <uuids>
+                    <uuid>{urn:com:appian:types}sdg</uuid>
+                </uuids>
+            </item>
+        </patchContents>
+    </applicationPatch>
+</applicationPatches>

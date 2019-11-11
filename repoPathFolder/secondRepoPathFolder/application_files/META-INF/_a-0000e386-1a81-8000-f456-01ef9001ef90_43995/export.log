@@ -1,0 +1,11 @@
+Success (1):
+datatype 2685 {urn:com:appian:types}sdg "{urn:com:appian:types}sdg"
+
+Trace:
+2019-11-11 14:38:17.036 DEBUG datatype 2685 {urn:com:appian:types}sdg Begin transport.
+2019-11-11 14:38:17.036 DEBUG datatype 2685 {urn:com:appian:types}sdg Retrieving object data.
+2019-11-11 14:38:17.081 DEBUG datatype 2685 {urn:com:appian:types}sdg Setting uuids of object references.
+2019-11-11 14:38:17.083 DEBUG datatype 2685 {urn:com:appian:types}sdg Completing produce.
+2019-11-11 14:38:17.083 DEBUG datatype 2685 {urn:com:appian:types}sdg Exporting binary resources.
+2019-11-11 14:38:17.083 DEBUG datatype 2685 {urn:com:appian:types}sdg Serializing object to XML.
+2019-11-11 14:38:17.093 DEBUG datatype 2685 {urn:com:appian:types}sdg Object transported.
