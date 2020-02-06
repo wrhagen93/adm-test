@@ -1,0 +1,156 @@
+Success (6):
+content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 "KC"
+content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 "DFolder"
+content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 "appian-adm-versioning-client-2.5.10-SNAPSHOT"
+content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 "Assignments Record Opt-Out Notification Email"
+content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 "metrics"
+application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 "10test"
+
+Trace:
+2020-02-06 16:57:28.795 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Begin transport.
+2020-02-06 16:57:28.795 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Retrieving object data.
+2020-02-06 16:57:28.804 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 App associated objects: [content=[_a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550, _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559, _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578, _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585, _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598]]
+2020-02-06 16:57:28.805 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Invalid associated objects: []
+2020-02-06 16:57:28.806 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Adding valid associated objects to be exported: GlobalBindingMap[content={_a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550=6124, _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559=6125, _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578=6127, _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585=6128, _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598=6130}]
+2020-02-06 16:57:28.806 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Setting uuids of object references.
+2020-02-06 16:57:28.806 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Processing reference: Application.forum
+2020-02-06 16:57:28.806 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Processing reference: Application.parent
+2020-02-06 16:57:28.811 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@407b0b9a[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=1:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2020-02-06 16:57:28.811 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.811 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.811 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.811 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.811 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.811 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.816 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Begin transport.
+2020-02-06 16:57:28.816 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Retrieving object data.
+2020-02-06 16:57:28.828 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Setting uuids of object references.
+2020-02-06 16:57:28.828 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Processing reference: CommunityKnowledgeCenter.forum
+2020-02-06 16:57:28.829 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Processing reference: CommunityKnowledgeCenter.parent
+2020-02-06 16:57:28.834 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@629724da[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=9:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2020-02-06 16:57:28.834 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.834 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.834 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2020-02-06 16:57:28.834 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.834 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.834 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.834 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Completing produce.
+2020-02-06 16:57:28.834 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Exporting binary resources.
+2020-02-06 16:57:28.834 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Serializing object to XML.
+2020-02-06 16:57:28.839 DEBUG content 6124 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37550 Object transported.
+2020-02-06 16:57:28.839 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Begin transport.
+2020-02-06 16:57:28.839 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Retrieving object data.
+2020-02-06 16:57:28.852 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Setting uuids of object references.
+2020-02-06 16:57:28.852 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Processing reference: KnowledgeFolder.forum
+2020-02-06 16:57:28.852 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Processing reference: KnowledgeFolder.parent
+2020-02-06 16:57:28.86 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@2e06d28c[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2020-02-06 16:57:28.86 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2020-02-06 16:57:28.86 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2020-02-06 16:57:28.86 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2020-02-06 16:57:28.86 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.86 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.86 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.86 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Completing produce.
+2020-02-06 16:57:28.86 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Exporting binary resources.
+2020-02-06 16:57:28.86 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Serializing object to XML.
+2020-02-06 16:57:28.868 DEBUG content 6125 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37559 Object transported.
+2020-02-06 16:57:28.868 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Begin transport.
+2020-02-06 16:57:28.868 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Retrieving object data.
+2020-02-06 16:57:28.879 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Setting uuids of object references.
+2020-02-06 16:57:28.879 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Processing reference: Document.forum
+2020-02-06 16:57:28.879 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Processing reference: Document.parent
+2020-02-06 16:57:28.885 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@358dbd4f[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2020-02-06 16:57:28.885 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2020-02-06 16:57:28.885 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2020-02-06 16:57:28.885 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2020-02-06 16:57:28.885 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.885 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.885 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2020-02-06 16:57:28.885 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Completing produce.
+2020-02-06 16:57:28.885 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Exporting binary resources.
+2020-02-06 16:57:31.43 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Serializing object to XML.
+2020-02-06 16:57:31.433 DEBUG content 6127 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37578 Object transported.
+2020-02-06 16:57:31.433 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Begin transport.
+2020-02-06 16:57:31.433 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Retrieving object data.
+2020-02-06 16:57:31.45 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Setting uuids of object references.
+2020-02-06 16:57:31.45 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Processing reference: Document.forum
+2020-02-06 16:57:31.451 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Processing reference: Document.parent
+2020-02-06 16:57:31.456 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@32721118[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2020-02-06 16:57:31.456 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2020-02-06 16:57:31.456 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2020-02-06 16:57:31.456 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2020-02-06 16:57:31.456 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2020-02-06 16:57:31.456 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2020-02-06 16:57:31.456 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2020-02-06 16:57:31.456 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Completing produce.
+2020-02-06 16:57:31.456 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Exporting binary resources.
+2020-02-06 16:57:31.475 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Serializing object to XML.
+2020-02-06 16:57:31.478 DEBUG content 6128 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37585 Object transported.
+2020-02-06 16:57:31.478 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Begin transport.
+2020-02-06 16:57:31.478 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Retrieving object data.
+2020-02-06 16:57:31.49 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Setting uuids of object references.
+2020-02-06 16:57:31.49 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Processing reference: Document.forum
+2020-02-06 16:57:31.491 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Processing reference: Document.parent
+2020-02-06 16:57:31.495 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@69dbc4d0[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2020-02-06 16:57:31.496 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2020-02-06 16:57:31.496 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2020-02-06 16:57:31.496 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2020-02-06 16:57:31.496 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2020-02-06 16:57:31.496 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2020-02-06 16:57:31.496 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2020-02-06 16:57:31.496 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Completing produce.
+2020-02-06 16:57:31.496 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Exporting binary resources.
+2020-02-06 16:57:31.506 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Serializing object to XML.
+2020-02-06 16:57:31.509 DEBUG content 6130 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37598 Object transported.
+2020-02-06 16:57:31.509 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Completing produce.
+2020-02-06 16:57:31.509 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Exporting binary resources.
+2020-02-06 16:57:31.509 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Serializing object to XML.
+2020-02-06 16:57:31.516 DEBUG application 6123 _a-0000e3f8-cddd-8000-c8df-6bef906bef90_37544 Object transported.
