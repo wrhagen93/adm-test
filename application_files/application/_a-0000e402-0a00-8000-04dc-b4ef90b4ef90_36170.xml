@@ -1,495 +1,746 @@
-<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
-        
-    <versionUuid>_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36187</versionUuid>
-        
-    <application>
-                
-        <name>bTest</name>
-                
-        <uuid>_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36170</uuid>
-                
-        <description/>
-                
-        <parentUuid>SYSTEM_APPLICATIONS_ROOT</parentUuid>
-                
-        <visibility>
-                        
-            <advertise>false</advertise>
-                        
-            <hierarchy>true</hierarchy>
-                        
-            <indexable>true</indexable>
-                        
-            <quota>false</quota>
-                        
-            <searchable>true</searchable>
-                        
-            <system>false</system>
-                        
-            <unlogged>false</unlogged>
-                    
-        </visibility>
-                
-        <urlIdentifier>HY1KJg</urlIdentifier>
-                
-        <published>false</published>
-                
-        <public>false</public>
-                
-        <associatedObjects>
-                        
-            <globalIdMap>
-                                
-                <item>
-                                        
-                    <type>datatype</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>dataStore</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>user</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>groupType</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>group</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>content</type>
-                                        
-                    <uuids>
-                                                
-                        <uuid>_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36182</uuid>
-                                            
-                    </uuids>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>forum</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>processModelFolder</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>processModel</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>portlet</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>page</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>application</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>tempoFeed</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>recordType</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>tempoReport</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>taskReport</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>webApi</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>site</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>adminSetting</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>thirdPartyCredentials</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>dataSource</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>embeddedSailTheme</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>connectedSystem</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                            
-            </globalIdMap>
-                    
-        </associatedObjects>
-                
-        <applicationNavigation/>
-                
-        <applicationActions/>
-                
-        <associatedApplications>
-                        
-            <globalIdMap>
-                                
-                <item>
-                                        
-                    <type>datatype</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>dataStore</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>user</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>groupType</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>group</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>content</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>forum</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>processModelFolder</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>processModel</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>portlet</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>page</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>application</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>tempoFeed</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>recordType</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>tempoReport</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>taskReport</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>webApi</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>site</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>adminSetting</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>thirdPartyCredentials</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>dataSource</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>embeddedSailTheme</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                                
-                <item>
-                                        
-                    <type>connectedSystem</type>
-                                        
-                    <uuids/>
-                                    
-                </item>
-                            
-            </globalIdMap>
-                    
-        </associatedApplications>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
             
-    </application>
-        
-    <roleMap>
-                
-        <contentRoleMap public="true">
-                        
-            <role allowForAll="false" inherit="false" name="readers">
-                                
-                <users/>
-                                
-                <groups/>
-                            
-            </role>
-                        
-            <role allowForAll="false" inherit="false" name="authors">
-                                
-                <users/>
-                                
-                <groups/>
-                            
-            </role>
-                        
-            <role allowForAll="false" inherit="false" name="administrators">
-                                
-                <users/>
-                                
-                <groups/>
-                            
-            </role>
-                        
-            <role allowForAll="false" inherit="false" name="denyReaders">
-                                
-                <users/>
-                                
-                <groups/>
-                            
-            </role>
-                        
-            <role allowForAll="false" inherit="false" name="denyAuthors">
-                                
-                <users/>
-                                
-                <groups/>
-                            
-            </role>
-                        
-            <role allowForAll="false" inherit="false" name="denyAdministrators">
-                                
-                <users/>
-                                
-                <groups/>
-                            
-            </role>
-                    
-        </contentRoleMap>
-            
-    </roleMap>
-        
-    <history>
-                
-        <historyInfo versionUuid="_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36187"/>
-            
-    </history>
     
-</applicationHaul>
+    <versionUuid>_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36211</versionUuid>
+            
+    
+    <application>
+                        
+        
+        <name>bTest</name>
+                        
+        
+        <uuid>_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36170</uuid>
+                        
+        
+        <description/>
+                        
+        
+        <parentUuid>SYSTEM_APPLICATIONS_ROOT</parentUuid>
+                        
+        
+        <visibility>
+                                    
+            
+            <advertise>false</advertise>
+                                    
+            
+            <hierarchy>true</hierarchy>
+                                    
+            
+            <indexable>true</indexable>
+                                    
+            
+            <quota>false</quota>
+                                    
+            
+            <searchable>true</searchable>
+                                    
+            
+            <system>false</system>
+                                    
+            
+            <unlogged>false</unlogged>
+                                
+        
+        </visibility>
+                        
+        
+        <urlIdentifier>HY1KJg</urlIdentifier>
+                        
+        
+        <published>false</published>
+                        
+        
+        <public>false</public>
+                        
+        
+        <associatedObjects>
+                                    
+            
+            <globalIdMap>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>datatype</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>dataStore</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>user</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>groupType</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>group</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>content</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>forum</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>processModelFolder</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>processModel</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>portlet</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>page</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>application</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>tempoFeed</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>recordType</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>tempoReport</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>taskReport</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>webApi</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>site</type>
+                                                            
+                    
+                    <uuids>
+                                                                        
+                        
+                        <uuid>2c2a4769-fa87-4db4-a154-69bfb75dfdb6</uuid>
+                                                                    
+                    
+                    </uuids>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>adminSetting</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>thirdPartyCredentials</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>dataSource</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>embeddedSailTheme</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>connectedSystem</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                            
+            
+            </globalIdMap>
+                                
+        
+        </associatedObjects>
+                        
+        
+        <applicationNavigation/>
+                        
+        
+        <applicationActions/>
+                        
+        
+        <associatedApplications>
+                                    
+            
+            <globalIdMap>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>datatype</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>dataStore</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>user</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>groupType</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>group</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>content</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>forum</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>processModelFolder</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>processModel</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>portlet</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>page</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>application</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>tempoFeed</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>recordType</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>tempoReport</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>taskReport</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>webApi</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>site</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>adminSetting</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>thirdPartyCredentials</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>dataSource</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>embeddedSailTheme</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                                
+                
+                <item>
+                                                            
+                    
+                    <type>connectedSystem</type>
+                                                            
+                    
+                    <uuids/>
+                                                        
+                
+                </item>
+                                            
+            
+            </globalIdMap>
+                                
+        
+        </associatedApplications>
+                    
+    
+    </application>
+            
+    
+    <roleMap>
+                        
+        
+        <contentRoleMap public="true">
+                                    
+            
+            <role allowForAll="false" inherit="false" name="readers">
+                                                
+                
+                <users/>
+                                                
+                
+                <groups/>
+                                            
+            
+            </role>
+                                    
+            
+            <role allowForAll="false" inherit="false" name="authors">
+                                                
+                
+                <users/>
+                                                
+                
+                <groups/>
+                                            
+            
+            </role>
+                                    
+            
+            <role allowForAll="false" inherit="false" name="administrators">
+                                                
+                
+                <users/>
+                                                
+                
+                <groups/>
+                                            
+            
+            </role>
+                                    
+            
+            <role allowForAll="false" inherit="false" name="denyReaders">
+                                                
+                
+                <users/>
+                                                
+                
+                <groups/>
+                                            
+            
+            </role>
+                                    
+            
+            <role allowForAll="false" inherit="false" name="denyAuthors">
+                                                
+                
+                <users/>
+                                                
+                
+                <groups/>
+                                            
+            
+            </role>
+                                    
+            
+            <role allowForAll="false" inherit="false" name="denyAdministrators">
+                                                
+                
+                <users/>
+                                                
+                
+                <groups/>
+                                            
+            
+            </role>
+                                
+        
+        </contentRoleMap>
+                    
+    
+    </roleMap>
+            
+    
+    <history>
+                        
+        
+        <historyInfo versionUuid="_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36187"/>
+                        
+        
+        <historyInfo versionUuid="_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36211"/>
+                    
+    
+    </history>
+        
+
+</applicationHaul><!--updated on 2020-02-13T12:50:59.157-->
