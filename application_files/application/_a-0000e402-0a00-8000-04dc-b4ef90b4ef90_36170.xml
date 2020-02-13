@@ -2,7 +2,7 @@
 <applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
             
     
-    <versionUuid>_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36234</versionUuid>
+    <versionUuid>_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36779</versionUuid>
             
     
     <application>
@@ -68,7 +68,13 @@
                     <type>datatype</type>
                                                             
                     
-                    <uuids/>
+                    <uuids>
+                                                                        
+                        
+                        <uuid>{urn:com:appian:types}ssdfhdfgh</uuid>
+                                                                    
+                    
+                    </uuids>
                                                         
                 
                 </item>
@@ -128,13 +134,7 @@
                     <type>content</type>
                                                             
                     
-                    <uuids>
-                                                                        
-                        
-                        <uuid>_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36229</uuid>
-                                                                    
-                    
-                    </uuids>
+                    <uuids/>
                                                         
                 
                 </item>
@@ -278,13 +278,7 @@
                     <type>site</type>
                                                             
                     
-                    <uuids>
-                                                                        
-                        
-                        <uuid>2c2a4769-fa87-4db4-a154-69bfb75dfdb6</uuid>
-                                                                    
-                    
-                    </uuids>
+                    <uuids/>
                                                         
                 
                 </item>
@@ -747,9 +741,12 @@
                         
         
         <historyInfo versionUuid="_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36234"/>
+                        
+        
+        <historyInfo versionUuid="_a-0000e402-0a00-8000-04dc-b4ef90b4ef90_36779"/>
                     
     
     </history>
         
 
-</applicationHaul><!--updated on 2020-02-13T12:57:50.402-->
+</applicationHaul><!--updated on 2020-02-13T15:16:00.112-->
