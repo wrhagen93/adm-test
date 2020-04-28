@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e464-d8b2-8000-d4fe-3def903def90_35843</versionUuid>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>6c4ecd55-074f-4290-bbbf-bbf49bcad85d</versionUuid>
     <application>
         <name>ADM</name>
         <uuid>_a-0000e464-d8b2-8000-d4fe-3def903def90_35838</uuid>
@@ -23,6 +24,7 @@
                     <type>datatype</type>
                     <uuids>
                         <uuid>{urn:com:appian:types}cdt-1</uuid>
+                        <uuid>{urn:com:appian:types}cdt-2</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -246,5 +248,6 @@
     </roleMap>
     <history>
         <historyInfo versionUuid="_a-0000e464-d8b2-8000-d4fe-3def903def90_35843"/>
+        <historyInfo versionUuid="6c4ecd55-074f-4290-bbbf-bbf49bcad85d"/>
     </history>
-</applicationHaul>
+</applicationHaul><!--updated on 2020-04-28T16:41:52.263-->
