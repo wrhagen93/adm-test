@@ -1,0 +1,34 @@
+Success (1):
+application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 "ADM-2"
+
+Referenced precedents that were not exported (1):
+user william.hagen.d william.hagen.d
+
+Trace:
+2020-04-28 20:50:23.624 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Begin transport.
+2020-04-28 20:50:23.624 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Retrieving object data.
+2020-04-28 20:50:23.631 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 App associated objects: []
+2020-04-28 20:50:23.632 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Invalid associated objects: []
+2020-04-28 20:50:23.632 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Adding valid associated objects to be exported: GlobalBindingMap[]
+2020-04-28 20:50:23.632 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Setting uuids of object references.
+2020-04-28 20:50:23.632 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Processing reference: Application.forum
+2020-04-28 20:50:23.632 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Processing reference: Application.parent
+2020-04-28 20:50:23.635 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@35166fc5[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,usernames=[william.hagen.d],inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=129:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2020-04-28 20:50:23.635 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2020-04-28 20:50:23.635 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2020-04-28 20:50:23.635 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Processing reference: ContentRole[name=administrators,usernames=[william.hagen.d],inherit=false,allowForAll=false]
+2020-04-28 20:50:23.636 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2020-04-28 20:50:23.636 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2020-04-28 20:50:23.636 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2020-04-28 20:50:23.636 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Completing produce.
+2020-04-28 20:50:23.636 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Exporting binary resources.
+2020-04-28 20:50:23.636 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Serializing object to XML.
+2020-04-28 20:50:23.643 DEBUG application 5938 _a-0000e464-d8b2-8000-d4fe-3def903def90_35871 Object transported.
