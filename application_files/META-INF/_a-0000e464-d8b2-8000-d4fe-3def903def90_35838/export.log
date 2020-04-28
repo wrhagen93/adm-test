@@ -1,0 +1,42 @@
+Success (2):
+datatype 3385 {urn:com:appian:types}cdt-1 "{urn:com:appian:types}cdt-1"
+application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 "ADM"
+
+Referenced precedents that were not exported (1):
+user william.hagen.d william.hagen.d
+
+Trace:
+2020-04-28 20:19:46.065 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Begin transport.
+2020-04-28 20:19:46.065 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Retrieving object data.
+2020-04-28 20:19:46.071 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 App associated objects: [datatype=[{urn:com:appian:types}cdt-1]]
+2020-04-28 20:19:46.071 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Invalid associated objects: []
+2020-04-28 20:19:46.071 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Adding valid associated objects to be exported: GlobalBindingMap[datatype={{urn:com:appian:types}cdt-1=3385}]
+2020-04-28 20:19:46.071 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Setting uuids of object references.
+2020-04-28 20:19:46.071 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Processing reference: Application.forum
+2020-04-28 20:19:46.072 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Processing reference: Application.parent
+2020-04-28 20:19:46.074 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@5d11e43b[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,usernames=[william.hagen.d],inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=129:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2020-04-28 20:19:46.074 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2020-04-28 20:19:46.074 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2020-04-28 20:19:46.074 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Processing reference: ContentRole[name=administrators,usernames=[william.hagen.d],inherit=false,allowForAll=false]
+2020-04-28 20:19:46.076 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2020-04-28 20:19:46.076 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2020-04-28 20:19:46.076 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2020-04-28 20:19:46.076 DEBUG datatype 3385 {urn:com:appian:types}cdt-1 Begin transport.
+2020-04-28 20:19:46.076 DEBUG datatype 3385 {urn:com:appian:types}cdt-1 Retrieving object data.
+2020-04-28 20:19:46.098 DEBUG datatype 3385 {urn:com:appian:types}cdt-1 Setting uuids of object references.
+2020-04-28 20:19:46.101 DEBUG datatype 3385 {urn:com:appian:types}cdt-1 Completing produce.
+2020-04-28 20:19:46.101 DEBUG datatype 3385 {urn:com:appian:types}cdt-1 Exporting binary resources.
+2020-04-28 20:19:46.101 DEBUG datatype 3385 {urn:com:appian:types}cdt-1 Serializing object to XML.
+2020-04-28 20:19:46.105 DEBUG datatype 3385 {urn:com:appian:types}cdt-1 Object transported.
+2020-04-28 20:19:46.105 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Completing produce.
+2020-04-28 20:19:46.105 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Exporting binary resources.
+2020-04-28 20:19:46.105 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Serializing object to XML.
+2020-04-28 20:19:46.114 DEBUG application 5932 _a-0000e464-d8b2-8000-d4fe-3def903def90_35838 Object transported.
